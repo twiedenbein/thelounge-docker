@@ -16,7 +16,7 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v3
+      - uses: googleapis/release-please-action@v3.7.13
         id: release
         with:
           token: ${{ secrets.PAT }}
