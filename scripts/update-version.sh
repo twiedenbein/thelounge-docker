@@ -24,7 +24,7 @@ replace_regex_in_file() {
 changelog_text() {
     cat <<EOF
 ## ${NEW_VERSION} ($(date +%Y-%m-%d))
-- Bump [\`thelounge\`][1] to [\`${NEW_VERSION}\`](https://github.com/thelounge/thelounge/releases/tag/v${NEW_VERSION}).
+- Bump [\`thelounge\`][1] to [\`${NEW_VERSION}\`](https://github.com/twiedenbein/thelounge/releases/tag/v${NEW_VERSION}).
 
 EOF
 }
