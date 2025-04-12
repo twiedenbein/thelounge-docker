@@ -64,7 +64,6 @@ jobs:
           MAJOR_TAG="$(sed -nre 's/^([0-9]+).*/\1/p' <<< "$VERSION")"
           GITHUB_IMAGE="ghcr.io/twiedenbein/thelounge"
           TAGS=(
-              "--tag" "${DOCKERHUB_IMAGE}:${TAG}"
               "--tag" "${GITHUB_IMAGE}:${TAG}"
           )
 
